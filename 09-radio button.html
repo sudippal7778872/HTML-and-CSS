@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Radio button</h1>
+    <h2>name attribute will be same for all radion option so that we can select only one option. and value attribute is
+        used to send the value in backend.</h2><br><br>
+
+    <form action="./thankyou.html" method="get">
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <p>Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other">
+
+
+        <br><br>
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+
+</html>

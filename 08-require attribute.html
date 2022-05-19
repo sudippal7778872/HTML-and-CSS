@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>forM</h1>
+    <br><br>
+    <h2>whatever the name we mention in name attribute that will get value = whatever we type in input field. use get
+        method you can see on url.</h2> <br><br>
+    <h2>if we mention require attribute in input field, then we have to give some value else we cant submit the form
+    </h2>
+
+    <form action="./thankyou.html" method="get">
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+
+</html>
