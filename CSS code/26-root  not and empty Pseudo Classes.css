@@ -1,0 +1,54 @@
+/* not pseudo classes */
+/* :not(p){
+    color:red;
+} */
+/* mean apart from p tag other all element will get the above mention property. */
+/* but we get the all element in red color. paragraph itself. why?
+
+==> because body tag get the property as it is not p tag, so body become red, that why
+all element get red color. p tag inharit red color from body.
+how to solve this problem?
+==> will use Decendant selector(mean now we will select all those element under body tag.
+so that body won't get the property.) 
+*/
+
+/* body :not(p){
+    color: red;
+} */
+/* now it will work fine */
+
+/* we can aslo select by selector */
+/* body :not(p.p1){
+    color:green;
+} */
+
+/* ------------------------------------------------------------------------ */
+/* empty pseudo class */
+/* div:empty{
+    background-color: aqua;
+    border: 5px solid red;
+    height: 100px;
+    width: 500px;
+} */
+/* means if we have empty div tag or elements in our body it will apply above mention
+all property on that div tag. */
+
+/* ------------------------------------------------------------------------------- */
+/* root pseudo class */
+:root{
+    background-color: #333;
+    color: #eee;
+}
+/* 
+means all under html tag will get this property. it is ame like 
+html{
+    property1
+    property2
+}
+*/
+
+
+
+
+
+
