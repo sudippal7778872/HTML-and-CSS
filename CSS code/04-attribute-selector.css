@@ -1,0 +1,36 @@
+/* Attribute selector */
+/* now we want to select all those input tag which type is text. the attribute will be written in "[]" symbol*/
+input[type = "text"]{
+    color: red;
+    background-color: aqua;
+}
+/* now whatever we type in text field, that will be in red color. */
+/* no type password */
+input[type = "password"]{
+    background-color: green;
+}
+
+/* now we have two google link in our page. in real world that link can be big. so for styling we have to write thewhole. else we have an another way let see. */
+
+/* now we want to select the all those anchor tag link which href containing "google". for that we use "*"* symbol */
+/* a[href *= "google"]{
+    color: green;
+} */
+
+/* now we want to color all the anchor tag which href attribute's value started with "https". for that symbol is "^". */
+/* a[href ^= "https"]{
+    color: lightskyblue;
+} */
+
+/* now we wnat to select all those anchor tag which href attribute's value end with ".com". for that we use "$symbol". */
+a[href $= ".com"]{
+    color:pink;
+}
+
+/* this all are applicable for all tag */
+
+
+
+
+
+

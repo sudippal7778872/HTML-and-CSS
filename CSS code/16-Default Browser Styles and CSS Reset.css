@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* will remove the default sytling */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

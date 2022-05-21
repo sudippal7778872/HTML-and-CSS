@@ -1,0 +1,30 @@
+/* a is a inline element. now we want to control all property like height width. */
+
+a{
+    border: 5px solid red;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+/* All properties are working */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

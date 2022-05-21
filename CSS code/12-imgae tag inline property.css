@@ -1,0 +1,8 @@
+/* image is inline element still it support padding and margin. it is different from other inline elements. */
+img{
+    /* we need to set either height or width browser automatically set another.*/
+    height: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}

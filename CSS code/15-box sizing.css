@@ -1,0 +1,42 @@
+/* we want to dar a line which width will be 500px. we use hr tag */
+hr{
+    border: 0.5px dashed black;
+    margin-left: 0px;
+    width: 500px;
+}
+
+.box1{
+    /* by default box-sizing is content-box */
+    width: 500px;
+    background-color: pink;
+    border: 10px solid red;
+    padding: 50px;
+    /* box-sizing: content-box; */
+}
+/* after adding border and padding now my box width increase from 500 to 
+500+border+padding. To prevent from this what is the solution? */
+
+/* now we want, if we specify the box width, then if we add border or padding or anything 
+with the box, thebox width wont be change.  */
+.box2{
+    width: 500px;
+    background-color: pink;
+    border: 10px solid red;
+    padding: 50px;
+    /* here will apply box-sizing */
+    box-sizing: border-box; 
+}
+
+/* "border-box" mean width of the box wont be change. padding or border will automatically
+adjusted inside the box. */
+
+
+
+
+
+
+
+
+
+
+

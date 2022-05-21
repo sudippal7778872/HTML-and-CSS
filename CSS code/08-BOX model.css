@@ -1,0 +1,25 @@
+/* padding is the space between content and border. */
+/* margin is the space between border and outer element. */
+h1{
+    border: 5px solid brown;
+    padding: 10px;  /* mean top left right bottom 10 px*/
+    /* padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; */
+    /* padding: 20px 40px;  mean 20px top buttom and 40px left right */
+    /*padding: 10px 20px 30px 40px; clockwise 10px top,20px right, 30px bottom,40px left  */
+    margin: 50px;
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+    /* margin: 20px 40px;  mean 20px top buttom and 40px left right */
+    /*margin: 10px 20px 30px 40px; clockwise 10px top, 20px right, 30px bottom, 40px left */
+
+
+    /* now make the element center */
+    width: 500px;
+    margin: 20px auto; /* mean top and bottom will be 20px and left and right will be auto, for which it will came into center. */
+    text-align: center;
+}

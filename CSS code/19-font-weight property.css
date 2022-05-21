@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* by default font weight of paragraph is normal. which is 400. */
+p{
+    font-weight: bold; /* make bold which value is 700*/
+
+}
+
+/* by default font weight of h1 is bold. */
+h1{
+    font-weight: 600;  /* if available it will get that weight. */
+}

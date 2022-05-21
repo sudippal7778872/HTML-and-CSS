@@ -1,0 +1,24 @@
+/* preference */
+/* inline css > internal css >  id selector > class selector > element selector */
+h1{
+    color: green;
+}
+.h1class{
+    color:red;
+}
+/* #h1id{
+    color: blue !important
+} */
+
+/* to make the highest preference the we use "!important". then it will become the highest preference. */ 
+/* here we want to apply id property value over inline css. let see color become blue or gray .....*/
+
+
+/* if we have two class in our element and we style by using both of them then the last one in css file will be overridden. */
+h1.h1class{  /* specificity is more. because it is more specific. */
+    color: aqua;
+}
+.heading{
+    color: yellow;
+}
+

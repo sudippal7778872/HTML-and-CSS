@@ -1,0 +1,25 @@
+body{
+    color: red;
+}
+/* overwrite in div1 */
+.container1{
+    color: green;
+}
+
+/* overwrite in div2 */
+.container2{
+    color: blue;
+}
+h1{
+    color: orange;
+}
+
+/* Here child inherit the color property from parents*/
+/* if we add anchor tag under direct body, then it's color should be red as we set color
+property in body. but it got different color why?
+because browser overwrite it. give some different color.
+*/
+
+
+
+

@@ -1,0 +1,33 @@
+/* universal selector is used to select everything syntax is "*" symbol
+*{
+    color:blue;
+} */
+
+header{
+    background-color: #f0ebeb;
+}
+/* now we want to select only that section tag which class is "my-articles"*/
+section.my-articles{
+    background-color: #f2e9e9;
+}
+
+/* now we want to select all those paragrah tag which is into the header tag.for that below symbol is used. this is called "descendant selector" or combinator*/
+header p{
+    color:red;
+}
+/* descendant selector */
+li a{
+    color:blue;
+}
+
+/* under section tag there is 3 h2 tag. among them two are inside article tag and one is only under the section tag this one is called direct child. if we use "descendant selector" the it will color all h2 tag under section, but now we want to change color only the direct child h2 tag. mean the h2 tag which is only under the section. for that we use "direct child combinator". symbol is ">"  */
+section.my-articles > h2{
+    color:green;
+}
+
+/* now we want to change the color of all those paragraph tag which came directly after the h2 tag. for that we use "Adjacent selector". symbol is "+" */
+h2+p{
+    color: yellow;
+}
+
+

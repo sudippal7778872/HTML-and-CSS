@@ -1,0 +1,39 @@
+/* now we want to select div tag which id is "container" from that want to select ul tag which class is "my-songs" and from that all list elements. */
+
+div#container ul.my-songs li{
+    color : brown;
+    background:yellow;
+}
+
+/* how to calculate specificity 
+inline css > id selector > class selector > element selector.this is the order
+_,           _,             _,                _,
+0,           1,             1,                3
+
+
+0-inline
+1- id
+1-class
+3- element 
+selector we used, so the specificity is 0113.
+
+*/
+
+.favourite{
+    background-color: green;
+}
+
+/* let calculate specificity. specificity is 0010 */
+/* so pervios one having more specificity( 0113 > 0010) so that will apply on element. */
+
+/* let increase the specificy of favourite class */
+div#container ul.my-songs li.favourite{
+    background-color: pink;
+}
+/* specificity is 0123
+0-inline
+1-id
+2-class
+3-element
+As 0123>0113 so this property will apply on that element. 
+*/

@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1 , .box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+/* now we want to give some space between two div tag */
+.box1{
+    margin-bottom: 40px;
+}
+.box2{
+    margin-top: 50px;
+}
+/* if we do this way. then there will be 50px margin not 90px, it will take the highest one between two. this is call margin collapsing. */
+
+
+
+
+
+
+
+
