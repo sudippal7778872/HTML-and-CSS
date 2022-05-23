@@ -1,0 +1,20 @@
+/* after and before pseudo elements */
+/* now we want to write some content before heading  */
+h1.cool::before{
+    content: "Topic:- ";
+}
+
+/* now we want to write some content after heading  */
+
+h1.cool::after{
+    content: ". Please remember!!!";
+    color: red;
+}
+
+/* by default it is a inline element. we can change it to block level */
+/* we can use pseudo elements(before and after) for those tag which have some content.
+can't use with image, input etc elements. */
+
+
+
+

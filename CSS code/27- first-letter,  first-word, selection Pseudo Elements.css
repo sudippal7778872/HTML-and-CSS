@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    background-color: greenyellow;
+}
+/* Now we want to increase the size of first letter of all paragraph. */
+/* p::first-letter{
+    font-size: 40px;
+} */
+
+/* Now we want to increase the size of first line of all paragraph. */
+/* p::first-line{
+    font-size: 32px;
+} */
+
+/* Now we want to chnage the property when we select that element of all paragraph. */
+
+p::selection{
+    color:black;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+

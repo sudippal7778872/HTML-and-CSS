@@ -2,6 +2,9 @@
 input:focus{
     padding: 10px;
 }
+input:required{
+    border: 2px solid red;
+}
 
 
 

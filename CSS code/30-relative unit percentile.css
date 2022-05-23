@@ -1,0 +1,41 @@
+/* percentile */
+/* p{
+    font-size: 125%;
+} */
+/*
+default value is 16px for paragraph which is 100%. So that 200% mean 32px; 
+*/
+
+/* parent property inharit */
+/* div{
+    font-size: 10px;
+}
+p{
+    font-size: 100%;  
+} */
+/* if this paragraph under div then 100% = 10px */
+/* ---------------------------------------------------------------------------- */
+/* let se how to set width through percentile(%) */
+div{
+    border: 2px solid red;
+    font-size: 20px;
+}
+p{
+    border: 2px solid green;
+    font-size: 100%;
+    width: 50%;  /* it will take 50% width of it's parent element. */
+    background-color: lightgray;
+    margin:10px auto; /* it will came to center of it's parents. top bottom 10 px 
+    and left right auto.*/
+    /* or to make center which is same as auto */
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
