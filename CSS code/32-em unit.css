@@ -1,0 +1,17 @@
+h1{
+    font-size: 2em;
+    border: 2em solid red;  /* 2em mean 2*32=64px */
+}
+/* 
+it will take the parent property as a reference. here ist h1 is under body, 
+so by default font size of body is 16px, so 2em mean 2*16=32px
+
+*/
+div{
+    font-size: 20px;
+}
+/* 
+now the outer h1 is not a child of div so it wont effect.
+but the div is parent of inner h1. so 2em for inner h1 is 2*20=40px
+for this one the borrder will be 40*2=80px
+*/

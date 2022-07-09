@@ -1,8 +1,6 @@
-/* body{
-    width: 1000px;
+body{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-} */
+}
 .center{
     width: 1000px;
     margin: 10px auto;
@@ -11,7 +9,6 @@
 
 .border{
     border:2px solid red;
-    
 }
 .text-align{
     text-align: center;

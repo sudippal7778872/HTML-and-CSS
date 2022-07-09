@@ -1,0 +1,27 @@
+html{
+    font-size: 10px;
+    font-size: 62.5%;  /* by default 16px so 62.5 is 10px. it will make the page
+    more responsive. if we increase the font-size from browser setting then our 
+    page content will also change. but if we make it constant like 10px in that 
+    case nothing will happen. that why we will do 62.5%
+    */
+}
+/* or we can also write as 
+:root{
+    font-size: 15px;
+}
+*/
+
+.box1{
+    font-size: 2rem;
+}
+/* 2rem meant, size will be 2 times multiple of root(html tag) element's value.
+here font size of html element is 10px so 2rem means 2*10=20px.
+here the reference is always html
+*/
+.text-content{
+font-size: 3rem;           /*mean 3*10=30px*/
+border: 1rem solid red;  /* 10px */
+margin:0.5rem;             /*5px*/
+padding:4rem;              /* 40px  */
+}

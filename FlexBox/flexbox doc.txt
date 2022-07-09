@@ -1,0 +1,114 @@
+flex box having two things
+1. flex container
+2. flex item.
+if we make the container as flex, then item will automatically arrange. (see 01-flexbox.html)
+
+we have few properties for flex container and few properties for flex item.
+
+1. FLEX CONTAINER properties:-
+
+from left to right we have MAIN AXIS.
+from top to buttom we have CROSS AXIS.
+
+1.FLEX-DIRECTION:-	
+flex-direction having 4 possible value(row, row-reverse, column,column-reverse ).
+1. row is by default.
+2. in row reverse main axis change from (left to right) to (right to left).
+3. in column main axis change from (left to right) to (top to button).
+4. in column reverse main axis change from (left to right) to (button to top).
+
+
+2. Flex-Wrap
+it have 3 possible value (wrap, nowrap, wrap-reverse)
+by default it is set to nowrap.
+flex-wrap:wrap;
+it make possible to give some width property to the box.
+
+in wrap-reverse change the cross axis from (top to button) to (button to top).
+
+By default flex item takes full height of flex container. we can change it thought height property.
+
+3. Justify-Content
+justify-content align the item according to MAIN AXIS.
+there 4-6 pssible value(flex-start, flex-end, center, space-between,space-around)
+justify-content is by default flex-start.
+
+in flex-start item will arrange from strat of main axis.
+in flex-end item will arrange from the end of main axis.
+
+4. Align-Item
+justify-content align the item according to CROSS AXIS.
+by default it is set to stretch.
+the possible values are (stretch,flex-start)
+
+in flex-start it will start from Cross axis's start and takes only nessesary height.
+in flex-end it will start from Cross axis's end and takes only nessesary height.
+
+
+5. Align-Content
+it is working on multiple row.
+pssible values are (flex-start, flex-end, space-around,space-between)
+
+
+6. Flex-Flow
+flex-flow is a short hand of flex-direction and flex-wrap.
+for example:- 
+flex-flow: row wrap;  mean flex-direction:row; and flex-wrap:wrap;
+
+
+2. Flex Item properties
+
+1. Align-Self
+possible values are (flex-start,flex-end,auto,center,stretch)
+having all property of align-item
+
+2. Order
+
+by default order set to 0.
+we can set the item order.
+the item with higher order align at the last.
+ex: order:1
+order:2
+order:3
+
+3. Flex-Basis
+flex-basis is the length of flex item in Main Axis direction.
+we can give the flex-basis value in px, rem, em etc.
+
+it is same as normal width when flex-direction is row.because main axis is left to right.
+we will see the change when our flex-direction is column. that time main axis will change to top to button. so flex-basis
+become height at that time.
+
+flex-basis having higher priority than normal height and width property. 
+
+4. Flex-Grow
+
+Flex Grow is a property of flex box. flex grow is used to consume the free space and distribute to all item.
+the free space will distributed to flex item according to flex grow value.
+example:
+flex-grow:1; --for box1(which width 60px) 
+flex-grow:2; --for box2(which width 60px)
+free space 90px
+box1 will get 30px of free space.
+and box2 will get 60px of free space.
+so after flex grow
+total width of will be:- 
+box1-90px
+box2-120px
+
+5. flex-shrink
+possible values are integer.
+
+short-hand
+flex: 1 2 500px
+=> flex: flex-grow flex-shrink flex-basis;
+
+
+flex:1;
+=> flex: flex-grow;
+
+flex:1 2;
+=>flex: flex-grow flex-shrink;
+
+flex:400px;
+=>flex:flex-basis
